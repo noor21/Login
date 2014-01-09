@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" >
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <!-- <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    
+    <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/> -->
+    
+    <TableRow >
+    <TextView android:text="FirstName:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:textSize="20dp"/>
+    
+    <EditText android:id="@+id/fname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""/>
+    
+    </TableRow>
+    <TableRow >
+    <TextView android:text="LastName:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:textSize="20dp"/>
+    
+    <EditText android:id="@+id/lname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""/>
+    
+    </TableRow>
+    <TableRow >
+    <TextView android:text="UserName:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:textSize="20dp"/>
+    
+    <EditText android:id="@+id/uname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""/>
+    
+    </TableRow>
+    <TableRow >
+    <TextView android:text="Password:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:textSize="20dp"/>
+    
+    <EditText android:id="@+id/pwd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:password="true"
+    android:text=""/>
+    
+    </TableRow>
+    </TableLayout>
+    <Button android:id="@+id/create"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:text="Create"
+    android:layout_gravity="center"/>
+    
+</LinearLayout>
+    
